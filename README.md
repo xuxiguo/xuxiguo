@@ -13,9 +13,9 @@ As an educator, I teach blockchain technology, cryptocurrency, and finance to bo
 
 ## News in Research
 
-1. "Can Machines Understand Human Skills? Insights from Analyst Selection" under invited re-submission at Journal of Finance [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742174)
+1. "Can Machines Understand Human Skills? Insights from Analyst Selection" under invited re-submission at *Journal of Finance* [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742174)
 
-2. "Decoding Mutual Fund Performance: Dynamic Return Patterns via Deep Learning" new version [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742174)
+2. "Decoding Mutual Fund Performance: Dynamic Return Patterns via Deep Learning", New version [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742174)
 
 
 
