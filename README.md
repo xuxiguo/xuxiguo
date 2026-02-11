@@ -61,4 +61,4 @@ Interactive educational demonstrations that make blockchain technology accessibl
 
 ---
 
-© 2025 Norman (Xuxi) Guo. Bridging AI and Finance for better investment decisions.
+© 2026 Norman (Xuxi) Guo. Bridging AI and Finance for better investment decisions.
