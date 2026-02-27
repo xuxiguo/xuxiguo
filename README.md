@@ -53,6 +53,47 @@ Interactive educational demonstrations that make blockchain technology accessibl
 - [₿ Bitcoin Demonstration](https://coindemo.io/) - Complete Bitcoin transaction simulation
 
 
+## 🤖 AI-Powered Research Workflow
+
+I have developed a two-stage multi-agent orchestration system for academic finance research, built on GitHub Copilot's agent framework. These tools automate the full research pipeline — from raw data extraction through to publication-ready results — using specialized AI agents that collaborate through a conductor-delegate pattern.
+
+### Research Data Orchestra
+Handles the **upstream data pipeline**: planning, source discovery, extraction, processing, validation, and documentation. The system uses a 3-tier document architecture to minimize context overhead while enabling parallel agent execution.
+
+**Agent Roster:**
+- `@Strategist` — Designs data extraction plans and researches source feasibility
+- `@Conductor` — Orchestrates the full pipeline and delegates to subagents
+- **Subagents**: Scout (source discovery) · Analyst (deep research) · Miner (extraction code) · Refiner (data cleaning/merging) · Sentinel (validation) · Scribe (documentation)
+
+**Key Innovations:**
+- **Context efficiency**: Backbone documents (~500 tokens) replace monolithic codebase scanning (~10,000+ tokens)
+- **Research-quality validation**: Checks for survivorship bias, look-ahead bias, and merge quality
+- **Reproducible output**: Paper-appendix-quality data dictionaries and full provenance tracking
+
+[[GitHub Repository]](https://github.com/xuxiguo/Research-Data-Orchestra)
+
+### Research Analysis Orchestra
+Handles the **downstream analysis pipeline**: hypothesis-driven sample construction, regression analysis, visualization, and publication-ready results generation.
+
+**Agent Roster:**
+- `@Strategist` — Discusses hypotheses and designs the analysis plan
+- `@Conductor` — Manages pipeline phases with user approval gates
+- **Subagents**: Builder (sample construction) · Executor (regressions/tables) · Vizmaker (publication figures) · Reviewer (code audit) · Debugger (error diagnosis) · Sentinel (validation) · Scribe (documentation) · Janitor (repo cleanup)
+
+**Pipeline Phases:**
+1. Build analysis sample → 2. Run regressions & tables → 3. Generate figures & robustness → 4. Document & clean up
+
+**Key Innovations:**
+- **Hypothesis-driven**: Every decision traces to pre-registered hypotheses with expected signs
+- **Publication-ready**: Tables and figures formatted for JF/JFE/RFS submission standards
+- **Flexible compute**: Supports personal computer and SLURM cluster environments
+
+[[GitHub Repository]](https://github.com/xuxiguo/Research-Analysis-Orchestra)
+
+---
+
+> These two orchestras form a complete end-to-end research automation system: **Research-Data-Orchestra** feeds clean, validated datasets into **Research-Analysis-Orchestra**, which produces publication-ready results. Both systems require VS Code Insiders with GitHub Copilot agent mode enabled.
+
 ## 📄 Links
 
 **Profile**: [CV](assets/pdf/Normanguo.pdf) | [Research Gate](https://www.researchgate.net/profile/Xuxi-Guo) | [Google Scholar](https://scholar.google.com/citations?user=KtPLAWQAAAAJ&hl=en)
