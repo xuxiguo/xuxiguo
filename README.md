@@ -28,15 +28,11 @@ As an educator, I teach blockchain technology, cryptocurrency, and finance to bo
 
 ## AI-Powered Research Workflow
 
-A two-stage multi-agent orchestration system for empirical finance research, built on GitHub Copilot's agent framework. Specialized agents collaborate through a conductor-delegate pattern to automate the full pipeline from raw data to publication-ready output.
-
-**Research Data Orchestra** — Manages the upstream pipeline: source discovery, extraction, cleaning, validation, and documentation. A lightweight backbone document architecture (~500 tokens) replaces monolithic codebase scanning, enabling parallel agent execution with built-in checks for survivorship bias, look-ahead bias, and merge quality. [[Repository]](https://github.com/xuxiguo/Research-Data-Orchestra)
-
-**Research Analysis Orchestra** — Manages the downstream pipeline: hypothesis-driven sample construction, regression analysis, figure generation, and robustness checks. Every analytical decision traces to pre-registered hypotheses; outputs meet JF/JFE/RFS formatting standards. Supports both local and SLURM cluster environments. [[Repository]](https://github.com/xuxiguo/Research-Analysis-Orchestra)
+**Research Paper Factory** — A 29-agent orchestration system for the complete academic research lifecycle — from data extraction through publication and revision — built as VS Code GitHub Copilot custom agents. Five department conductors (Strategy, Data Extraction, Data Analysis, Paper Writing, Revision) delegate to 14 specialist subagents and 11 shared services through a conductor-delegate pattern with mandatory approval gates, cross-session memory, SHA256 data versioning, and multi-model diversity (Opus for reasoning, Codex for code, Sonnet for review, Gemini for search). [[Repository]](https://github.com/xuxiguo/Research-Paper-Factory)
 
 ---
 
-> The two systems form an end-to-end research automation pipeline: **Research-Data-Orchestra** supplies validated datasets to **Research-Analysis-Orchestra**, which produces submission-ready results. Requires VS Code Insiders with GitHub Copilot agent mode.
+> You talk to 6 conductors with natural language via `@AgentName` in Copilot Chat. They manage everything below — including a meta-agent (`@Workflow-Manager`) that lets you modify the system itself with plain English. Requires VS Code with GitHub Copilot.
 
 ## 📄 Links
 
