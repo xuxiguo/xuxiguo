@@ -28,6 +28,8 @@ As an educator, I teach blockchain technology, cryptocurrency, and finance to bo
 
 ## AI-Powered Research Workflow
 
+**The Next Phase of AI Agents** — Slides introducing multi-agent design for academic research: from single-agent limitations to orchestrated conductor-delegate systems, MCP integrations, context window constraints, and the HAHA (Human→AI→Human→AI) oversight method. [[Slides]](https://xuxiguo.github.io/ai_agents_2026-02-27.html)
+
 **Research Paper Factory** — A 29-agent orchestration system for the complete academic research lifecycle — from data extraction through publication and revision — built as VS Code GitHub Copilot custom agents. Five department conductors (Strategy, Data Extraction, Data Analysis, Paper Writing, Revision) delegate to 14 specialist subagents and 11 shared services through a conductor-delegate pattern with mandatory approval gates, cross-session memory, SHA256 data versioning, and multi-model diversity (Opus for reasoning, Codex for code, Sonnet for review, Gemini for search). [[Repository]](https://github.com/xuxiguo/Research-Paper-Factory)
 
 ---
